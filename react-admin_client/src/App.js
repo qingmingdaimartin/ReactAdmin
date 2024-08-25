@@ -3,13 +3,13 @@ import { Button, message } from 'antd';
 
 export default class App extends Component {
   handleClick = () => {
-    message.success('success...'); // 
+    message.success('success...');
   }
 
   render() {
     return (
       <Button type="primary" onClick={this.handleClick}>
-        Test antd
+        测试 antd
       </Button>
     );
   }
