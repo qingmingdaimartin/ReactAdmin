@@ -11,7 +11,7 @@ import logo from './images/logo.png';
 const Login = () => {
     const [form] = Form.useForm();
 
-    const handleSubmit = (values) => {
+    let handleSubmit = (values) => {
         console.log('handleSubmit()', values);
     handleSubmit = (event) => {
         event.preventDefault()
